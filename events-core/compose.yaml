@@ -1,0 +1,8 @@
+services:
+  events_core:
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    ports:
+      - 8001:8001
